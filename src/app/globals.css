@@ -85,7 +85,7 @@ body {
   overflow-x: hidden;
 }
 
-body {
+html{
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -105,3 +105,43 @@ a {
     color-scheme: dark;
   }
 }
+svg{
+  fill: #ffff;
+  width: 1.25em;
+  height: 1.25em;
+}
+*{
+  background-color: #03060F;
+  color: white;
+  
+}
+@media (min-width:700px){
+  body{
+    /* solo los padind del lado izquierdo y derecho
+    no top ni bottom (para esp es padding-block)*/
+    padding-inline: 8em;
+  }
+}
+
+img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.project{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+/* ampliate casi al doble de separacion de texto
+osea que el texto no este tan pegado y se 
+mas facil leerlo (recomendado para todas las etiquetas p) */
+p{
+  line-height: 1.8;
+  /* limite la cantidad de caracteres por linea para 
+  que sea mejor experiencia de usaurio */
+  max-width: 75ch;
+
+}
+

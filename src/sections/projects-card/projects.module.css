@@ -1,0 +1,127 @@
+.proyectos{
+    width: 100%;
+    padding-bottom: 150px;
+    
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+ 
+    padding-bottom: 20px;
+}
+
+.seccion3{
+  /*  background-color: aquamarine;*/
+    width: 100%;
+    /*height: 600px;*/
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.imagen{
+    max-width: 500px;
+    width: 100%;
+   
+    background-color: transparent;
+    border-radius: 60px;
+    border: white 3px solid;
+    box-shadow: -8px 5px 30px rgba(243, 242, 242, 0.845);
+    
+}
+
+
+.contenedor1{
+    box-shadow: -2px 1px 1px rgba(243, 242, 242, 0.845);
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 20px 0 0 20px; 
+    align-items: center;
+    justify-content: center;
+    /*background-color:hsla(30, 0%, 25%, 0.27);*/
+
+}
+
+
+
+.contenedor2{
+    box-shadow: 2px 1px 1px rgba(243, 242, 242, 0.845);
+    box-sizing: border-box;
+    width: 100%;
+
+    border-radius: 0 20px 20px 0; 
+   /* background-color: burlywood;*/
+  /* background-color:hsla(30, 0%, 25%, 0.27);*/
+}
+.titulo{
+    background-color: transparent;
+    
+}
+
+.enlace1,
+.enlace2,
+.descripcion1,
+.descripcion2{
+
+  
+    background-color: transparent;
+    background-color:hsla(30, 0%, 25%, 0.27);
+    color: #ACACAC; 
+}
+.titulo{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    font-weight:500 ;
+    
+}
+
+
+.descripcion1,
+.descripcion2{
+    padding: 20px;
+    
+    background-color: transparent;
+}
+
+
+.enlaces{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: transparent;
+    margin-bottom: 20px;
+    
+}
+
+
+.enlace1,
+.enlace2{
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+/*MEDIA QUERY
+man
+*/
+@media (min-width:700px) {
+
+    .seccion3{
+        display: flex;
+    }
+    .contenedor1,
+    .contenedor2{
+        width: 40%;
+    }
+}

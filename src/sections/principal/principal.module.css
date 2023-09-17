@@ -1,0 +1,36 @@
+.principal{
+    
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid #FFFFFF45;
+}
+.titulo,
+.subtitulo{
+    background-color: transparent;
+
+}
+
+
+
+ 
+
+ 
+
+.titulo{
+    padding-top: 150px;
+    padding-left: 30px;
+    font-size: 100px;
+    /* el tamaño del texto no lleva px, solo el numero */
+    font-weight: 400;
+    
+}
+.subtitulo{
+    padding-left: 30px;
+    font-size: italic;
+    margin-bottom: 20px;
+    
+}
+
+
+  
+
