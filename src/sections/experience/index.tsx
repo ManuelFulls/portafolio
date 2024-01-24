@@ -32,9 +32,6 @@ const Experience = (props: Props) => {
           <h3 className={Styles.icono1}>
             <Social url='#' title='React' icon={ReactLogo} />
           </h3>
-          <h3 className={Styles.icono1}>
-            <Social url='#' title='Java' icon={JavaLogo} />
-          </h3>
         </div>
       </div>
     </section>

@@ -24,30 +24,22 @@
 .imagen{
     max-width: 500px;
     width: 100%;
-   
-    background-color: transparent;
-    border-radius: 60px;
-    border: white 3px solid;
-    box-shadow: -8px 5px 30px rgba(243, 242, 242, 0.845);
-    
+    border: white .3px solid;
+  
 }
 
 
 .contenedor1{
-    box-shadow: -2px 1px 1px rgba(243, 242, 242, 0.845);
-    box-sizing: border-box;
-    width: 100%;
-    border-radius: 20px 0 0 20px; 
-    align-items: center;
-    justify-content: center;
-    /*background-color:hsla(30, 0%, 25%, 0.27);*/
+  
+   box-sizing: border-box;
+   margin-right: .5em;
 
 }
 
 
 
 .contenedor2{
-    box-shadow: 2px 1px 1px rgba(243, 242, 242, 0.845);
+    box-shadow: .5px .5px 0px rgba(243, 242, 242, 0.845);
     box-sizing: border-box;
     width: 100%;
 
@@ -55,10 +47,7 @@
    /* background-color: burlywood;*/
   /* background-color:hsla(30, 0%, 25%, 0.27);*/
 }
-.titulo{
-    background-color: transparent;
-    
-}
+
 
 .enlace1,
 .enlace2,
@@ -72,18 +61,17 @@
 }
 .titulo{
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-size: 50px;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    font-size: 2em;
     font-weight:500 ;
+   
     
 }
 
 
-.descripcion1,
-.descripcion2{
-    padding: 20px;
-    
+.descripcion1{
+    padding: 1em;
     background-color: transparent;
 }
 
@@ -103,12 +91,11 @@
 .enlace2{
     display: block;
     box-sizing: border-box;
-    border: 2px solid white;
-    padding: 10px;
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    font-size: 17px;
+    border-radius: 15px;
+    padding: .4em;
+    background-color: #080e21e5;
+    color: white;
+    font-size: 1em;
 }
 
 
